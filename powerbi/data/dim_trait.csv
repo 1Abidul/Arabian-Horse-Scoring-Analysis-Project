@@ -1,0 +1,7 @@
+Trait,TraitLabel,SortOrder,MaxScore
+Type,Type,1,20
+Head_Neck,Head / Neck,2,20
+Body_Topline,Body / Topline,3,20
+Legs,Legs,4,20
+Movement,Movement,5,20
+Balance,Balance,6,20

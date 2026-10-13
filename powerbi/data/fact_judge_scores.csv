@@ -1,0 +1,121 @@
+ScoreID,HorseID,Judge,Type,Head_Neck,Body_Topline,Legs,Movement,Balance,TotalScore,JudgeComments
+SC-0001,HA-001,Judge A,19.9,20.0,18.5,18.1,18.2,19.8,114.5,Solid score pattern; useful for bloodline comparison.
+SC-0002,HA-001,Judge B,17.0,19.0,19.2,17.9,20.0,19.6,112.7,Shows promise across multiple halter traits.
+SC-0003,HA-001,Judge C,18.7,18.1,19.6,18.1,18.6,20.0,113.1,Good quality; monitor consistency across traits.
+SC-0004,HA-002,Judge A,19.9,18.5,19.8,19.0,19.1,17.7,114.0,Strong presence with balanced strengths.
+SC-0005,HA-002,Judge B,20.0,16.9,19.0,20.0,17.2,18.0,111.1,Attractive profile and useful movement.
+SC-0006,HA-002,Judge C,17.2,15.3,19.6,17.1,19.5,17.3,106.0,Attractive profile and useful movement.
+SC-0007,HA-003,Judge A,16.4,19.2,17.9,16.4,17.9,17.1,104.9,Strong presence with balanced strengths.
+SC-0008,HA-003,Judge B,18.4,18.9,18.4,17.9,17.9,18.8,110.3,Shows promise across multiple halter traits.
+SC-0009,HA-003,Judge C,20.0,18.5,18.1,16.8,18.2,16.4,108.0,Good quality; monitor consistency across traits.
+SC-0010,HA-004,Judge A,18.4,19.0,17.5,18.5,18.1,17.5,109.0,Shows promise across multiple halter traits.
+SC-0011,HA-004,Judge B,19.6,19.7,19.3,19.3,19.8,19.1,116.8,Solid score pattern; useful for bloodline comparison.
+SC-0012,HA-004,Judge C,18.6,18.2,16.3,19.0,19.0,19.5,110.6,Nice outline with room for development.
+SC-0013,HA-005,Judge A,18.7,19.8,18.8,17.3,18.3,16.7,109.6,Nice outline with room for development.
+SC-0014,HA-005,Judge B,18.9,17.7,18.5,17.8,18.8,18.3,110.0,Strong presence with balanced strengths.
+SC-0015,HA-005,Judge C,18.4,17.1,18.4,15.4,18.0,18.6,105.9,Good quality; monitor consistency across traits.
+SC-0016,HA-006,Judge A,18.6,20.0,18.0,18.7,20.0,18.4,113.7,Nice outline with room for development.
+SC-0017,HA-006,Judge B,18.6,19.1,19.7,17.8,17.6,17.4,110.2,Shows promise across multiple halter traits.
+SC-0018,HA-006,Judge C,18.0,18.5,17.8,19.0,17.1,20.0,110.4,Nice outline with room for development.
+SC-0019,HA-007,Judge A,16.4,16.3,18.0,17.0,17.3,15.2,100.2,Nice outline with room for development.
+SC-0020,HA-007,Judge B,15.7,16.0,18.3,16.7,18.0,16.4,101.1,Nice outline with room for development.
+SC-0021,HA-007,Judge C,18.5,15.9,19.8,18.9,17.3,18.7,109.1,Solid score pattern; useful for bloodline comparison.
+SC-0022,HA-008,Judge A,17.7,17.8,16.7,17.8,16.2,16.8,103.0,Good quality; monitor consistency across traits.
+SC-0023,HA-008,Judge B,19.4,19.2,16.9,15.9,18.3,18.3,108.0,Solid score pattern; useful for bloodline comparison.
+SC-0024,HA-008,Judge C,17.0,19.0,16.3,17.0,17.9,19.2,106.4,Shows promise across multiple halter traits.
+SC-0025,HA-009,Judge A,19.4,19.1,20.0,18.4,19.8,19.8,116.5,Solid score pattern; useful for bloodline comparison.
+SC-0026,HA-009,Judge B,19.3,18.6,20.0,17.8,20.0,18.8,114.5,Strong presence with balanced strengths.
+SC-0027,HA-009,Judge C,18.9,20.0,17.1,18.3,20.0,16.3,110.6,Solid score pattern; useful for bloodline comparison.
+SC-0028,HA-010,Judge A,17.4,16.2,16.9,17.5,18.1,17.5,103.6,Shows promise across multiple halter traits.
+SC-0029,HA-010,Judge B,18.6,18.4,18.5,18.1,15.8,18.5,107.9,Nice outline with room for development.
+SC-0030,HA-010,Judge C,16.6,15.5,19.2,16.5,17.9,16.7,102.4,Nice outline with room for development.
+SC-0031,HA-011,Judge A,18.7,18.6,18.8,17.0,18.0,17.3,108.4,Attractive profile and useful movement.
+SC-0032,HA-011,Judge B,17.3,19.5,18.4,18.2,19.0,17.7,110.1,Nice outline with room for development.
+SC-0033,HA-011,Judge C,16.6,17.9,17.9,18.4,19.2,15.9,105.9,Nice outline with room for development.
+SC-0034,HA-012,Judge A,16.5,15.6,17.3,20.0,16.5,17.7,103.6,Attractive profile and useful movement.
+SC-0035,HA-012,Judge B,18.7,15.7,17.5,17.6,16.1,17.5,103.1,Good quality; monitor consistency across traits.
+SC-0036,HA-012,Judge C,18.0,16.8,19.2,17.3,15.8,16.6,103.7,Strong presence with balanced strengths.
+SC-0037,HA-013,Judge A,17.6,18.7,18.2,16.6,18.8,18.3,108.2,Solid score pattern; useful for bloodline comparison.
+SC-0038,HA-013,Judge B,15.7,18.4,18.3,16.7,18.2,17.4,104.7,Shows promise across multiple halter traits.
+SC-0039,HA-013,Judge C,17.2,18.4,16.8,17.3,18.2,19.7,107.6,Attractive profile and useful movement.
+SC-0040,HA-014,Judge A,19.8,18.9,17.1,18.8,17.7,18.4,110.7,Strong presence with balanced strengths.
+SC-0041,HA-014,Judge B,18.8,17.6,18.0,16.9,15.1,18.7,105.1,Shows promise across multiple halter traits.
+SC-0042,HA-014,Judge C,18.6,18.7,19.3,17.2,16.3,17.6,107.7,Nice outline with room for development.
+SC-0043,HA-015,Judge A,20.0,18.9,16.6,16.5,18.8,18.2,109.0,Nice outline with room for development.
+SC-0044,HA-015,Judge B,17.7,19.2,18.2,18.4,17.8,17.0,108.3,Shows promise across multiple halter traits.
+SC-0045,HA-015,Judge C,18.1,19.6,18.9,16.8,17.4,19.2,110.0,Nice outline with room for development.
+SC-0046,HA-016,Judge A,18.6,19.4,19.4,19.1,19.2,19.0,114.7,Strong presence with balanced strengths.
+SC-0047,HA-016,Judge B,17.8,18.1,17.6,17.5,19.3,17.7,108.0,Solid score pattern; useful for bloodline comparison.
+SC-0048,HA-016,Judge C,19.1,20.0,18.6,18.4,18.8,18.5,113.4,Nice outline with room for development.
+SC-0049,HA-017,Judge A,18.7,19.9,19.1,20.0,19.7,18.4,115.8,Solid score pattern; useful for bloodline comparison.
+SC-0050,HA-017,Judge B,20.0,17.7,18.2,20.0,16.9,19.1,111.9,Shows promise across multiple halter traits.
+SC-0051,HA-017,Judge C,20.0,17.2,17.7,18.1,18.7,18.0,109.7,Shows promise across multiple halter traits.
+SC-0052,HA-018,Judge A,16.7,14.5,17.0,19.2,15.7,18.0,101.1,Shows promise across multiple halter traits.
+SC-0053,HA-018,Judge B,17.8,17.3,18.6,16.8,18.7,18.2,107.4,Attractive profile and useful movement.
+SC-0054,HA-018,Judge C,17.5,17.2,18.2,18.0,15.1,19.1,105.1,Solid score pattern; useful for bloodline comparison.
+SC-0055,HA-019,Judge A,18.6,18.3,17.1,18.0,17.8,19.4,109.2,Strong presence with balanced strengths.
+SC-0056,HA-019,Judge B,19.6,18.8,18.8,18.3,18.4,17.9,111.8,Strong presence with balanced strengths.
+SC-0057,HA-019,Judge C,19.3,19.1,18.3,19.6,18.5,17.5,112.3,Solid score pattern; useful for bloodline comparison.
+SC-0058,HA-020,Judge A,20.0,18.8,18.3,18.8,20.0,18.6,114.5,Good quality; monitor consistency across traits.
+SC-0059,HA-020,Judge B,18.0,19.1,19.3,18.2,17.0,18.3,109.9,Shows promise across multiple halter traits.
+SC-0060,HA-020,Judge C,16.5,18.3,16.9,17.8,18.2,17.8,105.5,Strong presence with balanced strengths.
+SC-0061,HA-021,Judge A,19.7,20.0,17.8,19.4,16.6,19.7,113.2,Solid score pattern; useful for bloodline comparison.
+SC-0062,HA-021,Judge B,18.3,18.1,18.0,19.1,16.8,19.2,109.5,Attractive profile and useful movement.
+SC-0063,HA-021,Judge C,20.0,19.4,18.4,16.2,17.1,18.1,109.2,Shows promise across multiple halter traits.
+SC-0064,HA-022,Judge A,19.0,17.4,18.1,19.1,18.5,19.0,111.1,Solid score pattern; useful for bloodline comparison.
+SC-0065,HA-022,Judge B,16.5,19.2,19.9,15.7,17.5,17.8,106.6,Nice outline with room for development.
+SC-0066,HA-022,Judge C,18.4,17.9,17.6,18.5,19.1,18.3,109.8,Solid score pattern; useful for bloodline comparison.
+SC-0067,HA-023,Judge A,19.5,20.0,18.3,16.6,19.8,19.5,113.7,Nice outline with room for development.
+SC-0068,HA-023,Judge B,18.1,19.2,18.7,19.5,18.3,17.7,111.5,Good quality; monitor consistency across traits.
+SC-0069,HA-023,Judge C,17.7,19.5,18.4,18.7,20.0,18.9,113.2,Shows promise across multiple halter traits.
+SC-0070,HA-024,Judge A,18.1,19.2,17.1,19.3,18.5,18.4,110.6,Shows promise across multiple halter traits.
+SC-0071,HA-024,Judge B,17.1,18.0,18.8,16.8,19.2,18.9,108.8,Solid score pattern; useful for bloodline comparison.
+SC-0072,HA-024,Judge C,19.4,18.5,18.2,17.5,18.0,19.5,111.1,Shows promise across multiple halter traits.
+SC-0073,HA-025,Judge A,18.9,18.3,17.5,17.3,18.7,17.7,108.4,Attractive profile and useful movement.
+SC-0074,HA-025,Judge B,17.6,17.0,17.4,20.0,16.9,19.0,107.9,Nice outline with room for development.
+SC-0075,HA-025,Judge C,17.4,18.5,18.8,17.8,17.2,17.7,107.4,Shows promise across multiple halter traits.
+SC-0076,HA-026,Judge A,19.7,18.4,17.4,19.0,20.0,19.9,114.4,Solid score pattern; useful for bloodline comparison.
+SC-0077,HA-026,Judge B,18.3,18.8,16.4,17.8,16.9,19.3,107.5,Shows promise across multiple halter traits.
+SC-0078,HA-026,Judge C,17.9,18.4,17.4,19.5,18.8,17.3,109.3,Nice outline with room for development.
+SC-0079,HA-027,Judge A,18.3,20.0,18.1,17.6,18.4,19.1,111.5,Shows promise across multiple halter traits.
+SC-0080,HA-027,Judge B,19.0,18.2,18.7,18.1,18.4,18.1,110.5,Nice outline with room for development.
+SC-0081,HA-027,Judge C,18.7,17.7,18.1,17.4,19.2,19.1,110.2,Solid score pattern; useful for bloodline comparison.
+SC-0082,HA-028,Judge A,19.6,18.4,18.3,17.8,19.1,18.0,111.2,Attractive profile and useful movement.
+SC-0083,HA-028,Judge B,19.8,18.5,16.9,19.0,18.3,19.4,111.9,Nice outline with room for development.
+SC-0084,HA-028,Judge C,20.0,19.2,17.9,16.8,19.4,20.0,113.3,Strong presence with balanced strengths.
+SC-0085,HA-029,Judge A,20.0,18.7,19.7,18.8,20.0,19.4,116.6,Shows promise across multiple halter traits.
+SC-0086,HA-029,Judge B,18.1,17.2,19.8,17.3,19.4,19.1,110.9,Good quality; monitor consistency across traits.
+SC-0087,HA-029,Judge C,17.6,18.0,18.7,19.3,19.7,18.0,111.3,Solid score pattern; useful for bloodline comparison.
+SC-0088,HA-030,Judge A,17.6,18.1,18.9,18.4,20.0,20.0,113.0,Solid score pattern; useful for bloodline comparison.
+SC-0089,HA-030,Judge B,17.1,18.0,19.0,18.0,19.4,17.8,109.3,Shows promise across multiple halter traits.
+SC-0090,HA-030,Judge C,17.4,16.9,19.7,18.5,19.2,17.3,109.0,Good quality; monitor consistency across traits.
+SC-0091,HA-031,Judge A,20.0,19.7,19.2,18.9,16.0,18.9,112.7,Shows promise across multiple halter traits.
+SC-0092,HA-031,Judge B,19.6,19.9,18.1,18.9,18.8,17.0,112.3,Attractive profile and useful movement.
+SC-0093,HA-031,Judge C,18.7,17.7,19.2,18.9,19.1,19.6,113.2,Nice outline with room for development.
+SC-0094,HA-032,Judge A,17.3,19.3,18.4,18.5,18.7,18.2,110.4,Strong presence with balanced strengths.
+SC-0095,HA-032,Judge B,17.1,16.9,18.5,18.3,17.0,18.1,105.9,Nice outline with room for development.
+SC-0096,HA-032,Judge C,16.5,18.6,19.1,17.6,16.4,17.4,105.6,Strong presence with balanced strengths.
+SC-0097,HA-033,Judge A,19.8,18.4,20.0,19.7,18.0,18.0,113.9,Good quality; monitor consistency across traits.
+SC-0098,HA-033,Judge B,19.4,17.4,19.9,19.1,19.0,18.9,113.7,Good quality; monitor consistency across traits.
+SC-0099,HA-033,Judge C,18.1,15.7,18.1,18.2,19.1,18.4,107.6,Solid score pattern; useful for bloodline comparison.
+SC-0100,HA-034,Judge A,20.0,20.0,19.1,17.7,19.3,19.0,115.1,Attractive profile and useful movement.
+SC-0101,HA-034,Judge B,19.1,18.0,18.9,18.1,19.8,18.9,112.8,Good quality; monitor consistency across traits.
+SC-0102,HA-034,Judge C,20.0,20.0,18.0,18.3,20.0,18.8,115.1,Strong presence with balanced strengths.
+SC-0103,HA-035,Judge A,19.0,18.8,18.5,17.5,17.9,18.5,110.2,Shows promise across multiple halter traits.
+SC-0104,HA-035,Judge B,19.4,18.0,19.1,18.5,19.0,18.5,112.5,Attractive profile and useful movement.
+SC-0105,HA-035,Judge C,18.9,19.0,18.3,18.5,19.3,17.5,111.5,Good quality; monitor consistency across traits.
+SC-0106,HA-036,Judge A,18.6,17.6,18.5,18.4,19.1,19.1,111.3,Good quality; monitor consistency across traits.
+SC-0107,HA-036,Judge B,19.0,19.2,16.6,18.7,18.1,20.0,111.6,Good quality; monitor consistency across traits.
+SC-0108,HA-036,Judge C,19.1,16.3,17.4,16.9,19.8,20.0,109.5,Attractive profile and useful movement.
+SC-0109,HA-037,Judge A,17.6,18.9,20.0,18.3,15.6,18.2,108.6,Good quality; monitor consistency across traits.
+SC-0110,HA-037,Judge B,18.0,18.5,17.4,19.1,19.0,16.8,108.8,Nice outline with room for development.
+SC-0111,HA-037,Judge C,16.2,18.1,15.6,18.5,17.7,16.2,102.3,Nice outline with room for development.
+SC-0112,HA-038,Judge A,19.0,19.1,17.8,19.1,19.2,17.0,111.2,Strong presence with balanced strengths.
+SC-0113,HA-038,Judge B,16.9,20.0,17.9,17.2,18.7,18.4,109.1,Attractive profile and useful movement.
+SC-0114,HA-038,Judge C,19.5,20.0,17.3,18.8,17.1,17.4,110.1,Solid score pattern; useful for bloodline comparison.
+SC-0115,HA-039,Judge A,18.8,20.0,18.1,19.9,20.0,19.0,115.8,Shows promise across multiple halter traits.
+SC-0116,HA-039,Judge B,20.0,17.5,18.3,18.0,17.9,16.7,108.4,Solid score pattern; useful for bloodline comparison.
+SC-0117,HA-039,Judge C,17.6,17.7,18.3,18.0,18.3,17.8,107.7,Attractive profile and useful movement.
+SC-0118,HA-040,Judge A,20.0,20.0,20.0,19.2,19.9,19.3,118.4,Nice outline with room for development.
+SC-0119,HA-040,Judge B,18.3,19.1,19.4,19.7,18.6,18.2,113.3,Shows promise across multiple halter traits.
+SC-0120,HA-040,Judge C,18.8,16.8,17.5,18.2,20.0,18.8,110.1,Attractive profile and useful movement.

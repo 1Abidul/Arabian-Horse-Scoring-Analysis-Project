@@ -1,0 +1,105 @@
+// =====================================================================
+// Horse Scoring & Bloodline Analytics — DAX measures
+// Create a blank table named _Measures (Enter Data > OK) and paste each
+// measure into it via New Measure. Table names match powerbi/data/*.csv.
+// =====================================================================
+
+// ---------- Core scores ----------
+Horse Count = DISTINCTCOUNT ( dim_horse[HorseID] )
+
+Avg Judge Total =
+AVERAGE ( fact_judge_scores[TotalScore] )            // average of judge score cards (out of 120)
+
+Avg Horse Total =
+AVERAGEX ( VALUES ( dim_horse[HorseID] ), CALCULATE ( AVERAGE ( fact_judge_scores[TotalScore] ) ) )
+
+Avg Trait Score =
+AVERAGE ( fact_trait_scores[Score] )                 // use with dim_trait[TraitLabel] on an axis
+
+Herd Avg Trait Score =
+CALCULATE ( [Avg Trait Score], REMOVEFILTERS ( dim_horse ), REMOVEFILTERS ( fact_judge_scores[Judge] ) )
+
+Trait vs Herd =
+[Avg Trait Score] - [Herd Avg Trait Score]           // + = strength, - = weakness (diverging colour)
+
+Max Possible = 120
+
+Score % of Max = DIVIDE ( [Avg Horse Total], [Max Possible] )
+
+// ---------- Tiers & ranking ----------
+Elite Cutoff = 112
+High Cutoff = 106
+
+Elite Horses =
+COUNTROWS ( FILTER ( VALUES ( dim_horse[HorseID] ),
+    CALCULATE ( AVERAGE ( fact_judge_scores[TotalScore] ) ) >= [Elite Cutoff] ) )
+
+Elite % = DIVIDE ( [Elite Horses], [Horse Count] )
+
+Horse Rank =
+IF ( HASONEVALUE ( dim_horse[HorseID] ),
+    RANKX ( ALL ( dim_horse ), [Avg Horse Total], , DESC, Skip ) )
+
+Score Tier =
+VAR s = [Avg Horse Total]
+RETURN SWITCH ( TRUE (), ISBLANK ( s ), BLANK (),
+    s >= [Elite Cutoff], "Elite", s >= [High Cutoff], "High", s >= 100, "Developing", "Needs Review" )
+
+Top Horse =
+VAR t = TOPN ( 1, VALUES ( dim_horse[RegisteredName] ), [Avg Horse Total], DESC )
+RETURN CONCATENATEX ( t, dim_horse[RegisteredName], ", " )
+
+// ---------- Bloodline / parent ----------
+Sire Show Score =
+CALCULATE ( AVERAGE ( dim_parent[ParentShowScore] ),
+    TREATAS ( VALUES ( dim_horse[Sire] ), dim_parent[ParentName] ) )
+
+Dam Sire Show Score =
+CALCULATE ( AVERAGE ( dim_parent[ParentShowScore] ),
+    TREATAS ( VALUES ( dim_horse[DamSire] ), dim_parent[ParentName] ) )
+
+Offspring vs Sire = [Avg Horse Total] - [Sire Show Score]
+
+Avg Mid-Parent Score = AVERAGE ( horse_score_summary[MidParentScore] )
+
+Herd Avg Total = CALCULATE ( [Avg Horse Total], REMOVEFILTERS ( dim_horse ) )
+
+Vs Herd Avg = [Avg Horse Total] - [Herd Avg Total]
+
+Score Std Dev =
+STDEVX.S ( VALUES ( dim_horse[HorseID] ), CALCULATE ( AVERAGE ( fact_judge_scores[TotalScore] ) ) )
+
+// ---------- Conformation strengths ----------
+Strongest Trait =
+VAR t = TOPN ( 1, VALUES ( dim_trait[TraitLabel] ), [Avg Trait Score], DESC )
+RETURN CONCATENATEX ( t, dim_trait[TraitLabel], ", " )
+
+Weakest Trait =
+VAR t = TOPN ( 1, VALUES ( dim_trait[TraitLabel] ), [Avg Trait Score], ASC )
+RETURN CONCATENATEX ( t, dim_trait[TraitLabel], ", " )
+
+Horses Strongest In Trait =
+CALCULATE ( COUNTROWS ( horse_score_summary ),
+    TREATAS ( VALUES ( dim_trait[Trait] ), horse_score_summary[MainStrength] ) )
+
+Horses Weakest In Trait =
+CALCULATE ( COUNTROWS ( horse_score_summary ),
+    TREATAS ( VALUES ( dim_trait[Trait] ), horse_score_summary[FocusArea] ) )
+
+// ---------- Judges ----------
+Panel Avg Total = CALCULATE ( [Avg Judge Total], REMOVEFILTERS ( dim_judge ) )
+
+Judge vs Panel = [Avg Judge Total] - [Panel Avg Total]
+
+Judge vs Panel (Trait) =
+[Avg Trait Score] - CALCULATE ( [Avg Trait Score], REMOVEFILTERS ( dim_judge ) )
+
+Avg Judge Spread = AVERAGE ( horse_score_summary[JudgeSpread] )
+
+// ---------- Data quality ----------
+Sex/Age Mismatches =
+CALCULATE ( [Horse Count], dim_horse[DataFlag] <> "" )   // blank and "" both excluded
+
+// ---------- Dynamic titles ----------
+Selection Title =
+"Average score: " & FORMAT ( [Avg Horse Total], "0.0" ) & " of 120 · " & [Horse Count] & " horses"
